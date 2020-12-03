@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "Advent of Code 2020",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./build/advent.js",
+    "prod": "npm-run-all build start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanmetzgar/advent-of-code-2020.git"
+  },
+  "author": "Sean Metzgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanmetzgar/advent-of-code-2020/issues"
+  },
+  "homepage": "https://github.com/seanmetzgar/advent-of-code-2020#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "npm-run-all": "^4.1.5"
+  }
+}
